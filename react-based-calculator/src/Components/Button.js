@@ -3,20 +3,24 @@ import React from 'react'
 
 
 const Button = (props) => {
+
   const input = (value) => {
-    // create a list variable
     let inputs = [];
+    // create a list variable
     let i = value.split(' ');
     // append the innerHtml of all button clicked to the end of the list
-    const innerText = document.querySelector()
-    // if button clicked is "=", then pass the joint list into the eval function and print the outcome
+    const myInnerText = document.querySelector("." + i[1]).innerText;
+    inputs.push(myInnerText);
 
-    // If button clicke is "on",  enpty the list
+    console.log(inputs)
+    // if button clicked is "=", then pass the joint list into the eval function and print the outcome
+    
+    // If button clicked is "on",  enpty the list
 
   }
     //let buttonType, buttonContent = props
   return (
-    <button className={props.buttonType}>{props.buttonContent}</button>
+    <button onClick ={() => input(props.buttonType)} className={props.buttonType}>{props.buttonContent}</button>
   )
 }
 

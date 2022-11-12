@@ -8,22 +8,22 @@ const GridContainer = () => {
     <section className='container'>
       <Screen></Screen>
       <Button buttonType = 'buttonRow4 buttonOn' buttonContent = 'ON/CE' />
-      <Button buttonType = 'buttonRow1 buttonDigit' buttonContent = '7' />
-      <Button buttonType = 'buttonRow2 buttonDigit' buttonContent = '8' />
-      <Button buttonType = 'buttonRow3 buttonDigit' buttonContent = '9' />
-      <Button buttonType = 'buttonRow4 button' buttonContent = '/' />
-      <Button buttonType = 'buttonRow1 buttonDigit' buttonContent = '4' />
-      <Button buttonType = 'buttonRow2 buttonDigit' buttonContent = '5' />
-      <Button buttonType = 'buttonRow3 buttonDigit' buttonContent = '6' />
-      <Button buttonType = 'buttonRow4 button' buttonContent = 'x' />
-      <Button buttonType = 'buttonRow1 buttonDigit' buttonContent = '1' />
-      <Button buttonType = 'buttonRow2 buttonDigit' buttonContent = '2' />
-      <Button buttonType = 'buttonRow3 buttonDigit' buttonContent = '3' />
-      <Button buttonType = 'buttonRow4 button' buttonContent = '-' />
-      <Button buttonType = 'buttonRow1 button' buttonContent = '.' />
-      <Button buttonType = 'buttonRow2 buttonDigit' buttonContent = '0' />
-      <Button buttonType = 'buttonRow3 button' buttonContent = '=' />
-      <Button buttonType = 'buttonRow4 button' buttonContent = '+' />
+      <Button buttonType = 'buttonRow1 button7' buttonContent = '7' />
+      <Button buttonType = 'buttonRow2 button8' buttonContent = '8' />
+      <Button buttonType = 'buttonRow3 button9' buttonContent = '9' />
+      <Button buttonType = 'buttonRow4 buttonDivide' buttonContent = '/' />
+      <Button buttonType = 'buttonRow1 button4' buttonContent = '4' />
+      <Button buttonType = 'buttonRow2 button5' buttonContent = '5' />
+      <Button buttonType = 'buttonRow3 button6' buttonContent = '6' />
+      <Button buttonType = 'buttonRow4 buttonMultiply' buttonContent = '*' />
+      <Button buttonType = 'buttonRow1 button1' buttonContent = '1' />
+      <Button buttonType = 'buttonRow2 button2' buttonContent = '2' />
+      <Button buttonType = 'buttonRow3 button3' buttonContent = '3' />
+      <Button buttonType = 'buttonRow4 buttonMinus' buttonContent = '-' />
+      <Button buttonType = 'buttonRow1 buttonDot' buttonContent = '.' />
+      <Button buttonType = 'buttonRow2 buttonDot' buttonContent = '0' />
+      <Button buttonType = 'buttonRow3 buttonEqual' buttonContent = '=' />
+      <Button buttonType = 'buttonRow4 buttonPlus' buttonContent = '+' />
       
       
     </section>
