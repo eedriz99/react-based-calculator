@@ -21,7 +21,7 @@ const GridContainer = () => {
       <Button buttonType = 'buttonRow3 button3' buttonContent = '3' />
       <Button buttonType = 'buttonRow4 buttonMinus' buttonContent = '-' />
       <Button buttonType = 'buttonRow1 buttonDot' buttonContent = '.' />
-      <Button buttonType = 'buttonRow2 buttonDot' buttonContent = '0' />
+      <Button buttonType = 'buttonRow2 buttonZero' buttonContent = '0' />
       <Button buttonType = 'buttonRow3 buttonEqual' buttonContent = '=' />
       <Button buttonType = 'buttonRow4 buttonPlus' buttonContent = '+' />
       

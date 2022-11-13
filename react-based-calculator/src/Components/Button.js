@@ -1,24 +1,32 @@
 import './Button.css'
 import React from 'react'
 
-
+let inputs = [];
 const Button = (props) => {
-
   const input = (value) => {
-    let inputs = [];
     // create a list variable
     let i = value.split(' ');
-    // append the innerHtml of all button clicked to the end of the list
+    // append the innerHtml of all button clicked to the end 
+    // of the list
     const myInnerText = document.querySelector("." + i[1]).innerText;
-    inputs.push(myInnerText);
+    if (myInnerText !== "=" && myInnerText !== "ON/CE") {
+      inputs.push(myInnerText);
+    } else if(myInnerText === "="){
+      // if button clicked is "=", then pass the joint list into 
+      // the eval function and print the outcome
+      const joinedInputs = inputs.join("");
+      inputs = [];
+      inputs.push(eval(joinedInputs));
+    } else if(myInnerText === "ON/CE"){
+        // If button clicked is "ON/CE",  enpty the list
+      inputs = [];
+    }
+    
 
     console.log(inputs)
-    // if button clicked is "=", then pass the joint list into the eval function and print the outcome
-    
-    // If button clicked is "on",  enpty the list
 
   }
-    //let buttonType, buttonContent = props
+
   return (
     <button onClick ={() => input(props.buttonType)} className={props.buttonType}>{props.buttonContent}</button>
   )
